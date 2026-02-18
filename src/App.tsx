@@ -524,7 +524,7 @@ export default function App() {
   );
   const done = useMemo(() => tasks.filter((t) => t.done), [tasks]);
 
-  const remaining = inbox.length + core.length + later.length;
+
   const completed = done.length;
 
   const happiness = useMemo(() => {
